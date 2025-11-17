@@ -1,4 +1,4 @@
-Hi, I’m *Zeyd Alsuliman*
+Hi, I’m *Zeyd Alsuliman*.
 I’m an informatics student @Kanagawa-Uni sharing my studies, projects, and even alpine adventures (sometimes).  
 
 This repository powers my personal blog https://zeyd2718.github.io

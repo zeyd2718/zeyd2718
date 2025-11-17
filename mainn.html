@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zeyd's Blog</title>
+  <link rel="stylesheet" href="stylingg.css">
+</head>
+<body>
+
+<header>
+  <h1>Zeyd A.</h1>
+  <p>Just enjoyin' my life, my way...</p>
+</header>
+
+<nav class="container">
+  <ul style="list-style:none; padding:0; display:flex; gap:18px; font-weight:600;">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="studies.html">Studies</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="alpine.html">Alpine</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+  <h2>Welcome</h2>
+  <p>
+    This site shares selected work, learning progress, side projects, and outdoor activities.
+    Content is added iteratively as part of a continuous personal development log.
+  </p>
+
+  <h2>Latest Notes (optional)</h2>
+  <ul>
+    <li>Update this section manually or link to posts once you create them.</li>
+  </ul>
+</div>
+
+<footer>
+  © <span id="year"></span> Zeyd Alsuliman — Licensed under MIT
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

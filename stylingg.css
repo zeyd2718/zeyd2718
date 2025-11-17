@@ -1,0 +1,66 @@
+/* ===== MIT Theme — Zeyd Blog ===== */
+
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F7F7F7;
+    color: #1B1B1B;
+    line-height: 1.6;
+}
+
+/* Header bar */
+header {
+    background-color: #A31F34; /* MIT Red */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Section titles */
+h2 {
+    color: #A31F34;
+    border-bottom: 2px solid #A31F34;
+    padding-bottom: 5px;
+}
+
+/* Links */
+a {
+    color: #A31F34;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+/* Content container */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Simple button style (optional use) */
+.button {
+    display: inline-block;
+    padding: 8px 14px;
+    background-color: #A31F34;
+    color: white;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    opacity: 0.85;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 12px;
+    font-size: 0.9rem;
+    color: #8A8B8C;
+}
